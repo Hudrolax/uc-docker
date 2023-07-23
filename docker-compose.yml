@@ -8,5 +8,4 @@ services:
       - 5900:5900
     volumes:
       - ./app:/app
-      - ./scripts:/scripts
     shm_size: '2g'

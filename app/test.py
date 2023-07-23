@@ -12,7 +12,7 @@ target_url = 'https://nowsecure.nl'
 with open('blank.html', 'w') as f:
     f.write(f'<a href="{target_url}" target="_blank">link</a>')
 
-driver = uc.Chrome(headless=False, use_subprocess=False)
+driver = uc.Chrome(headless=True, use_subprocess=False)
 driver.get(f'file://{current_dir}/blank.html')
 # you need to sleep several seconds after start the browser before you
 # can open cloudflare protected page
