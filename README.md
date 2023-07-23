@@ -5,4 +5,4 @@ This image uses x86 .deb package for installing Chrome and it can't be built on 
 ## How to run:
 1. clone the repository
 2. build the image: docker compose build
-3. run: docker compose run
+3. run: docker compose up
