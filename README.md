@@ -7,3 +7,6 @@ Image size about 1.7Gb
 1. clone the repository
 2. build the image: docker compose build
 3. run: docker compose up
+
+### Links:
+1. Alpine Linux based image: https://github.com/Hudrolax/uc-docker-alpine
